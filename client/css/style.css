@@ -1,0 +1,147 @@
+body{
+	margin-top: 0px;
+	background: #eeeeee;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	color: #333333;
+	width:100%;
+}
+.mainArea{
+	width: 520px;
+	margin: 0px auto;
+	padding-bottom: 0px;
+	margin-bottom: 40px;
+	background: #ffffff;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+.header{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0 0px 0;
+	margin: 0px auto;
+	margin:0px 14px 20px 14px;
+	font: 36px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	color: #333333;
+}
+h1{
+	margin-top:10px;
+	margin-bottom: 10px
+}
+.newTask{
+	padding: 0px 20px 15px 20px;
+}
+.inputBox{
+	width: 466px;
+	font-size: 24px;
+	font-family: inherit;
+	line-height: 1.4em;
+	border: 0;
+	outline: none;
+	padding: 6px;
+	border: 1px solid #999999;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+.placeHolder{
+	color:grey;
+	font-style: italic;
+}
+.markAllCompleted{
+	padding: 0px 20px 0px 20px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px 20px 0px 20px;
+	list-style-type: none; 
+}
+li{
+	padding: 18px 20px 18px 0;
+	position: relative;
+	font-size: 24px;
+	border-bottom: 1px solid #cccccc;
+}
+.checked{
+	text-decoration: line-through;
+}
+.taskSpan{
+	word-break: break-word;
+}
+.btnDeleteCompleted{
+	float: right;
+	line-height: 20px;
+	text-decoration: none;
+	color: #555555;
+	background: rgba(0, 0, 0, 0.1);
+	font-size: 11px;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0 0;
+
+}
+.taskEdit{
+	width: 466px;
+	font-size: 24px;
+	font-family: inherit;
+	line-height: 1.4em;
+	border: 0;
+	outline: none;
+	padding: 6px;
+	border: 1px solid #999999;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+.btnDelete {
+	float: right;
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	display: none;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url(../img/destroy.png) no-repeat;
+}
+li:hover .btnDelete {
+  	display: block;
+}
+.btnDelete:hover {
+  	background-position: 0 -20px;
+}
+.countTasksArea{
+	border-radius: 0 0 5px 5px;
+-webkit-border-radius: 0 0 5px 5px;
+	padding:15px;
+	background: #f4fce8;
+}
+.authorCredential{
+	clear: both;
+	font-size: 20px;
+	width: 245px;
+	display: block;
+	margin: 0px auto;
+}
+.helperText{
+	clear: both;
+	width: 175px;
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 50px;
+}
